@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quran Translation API</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h2>Quran APIs</h2>
+    <i>Choose one option from below!</i>
+    <i><b>DROPDOWN</b> or <b>INPUT</b></i>
+    <i>Click <b>clear</b> to reset the information on screen!</i>
+
+    <div id="main"></div>
+
+    <ol id="things"></ol>
+
+    <select id="options" onchange="getItemSelected();"></select>
+    <input id="dropDown" type="radio" name="radioChoice"/>Choose ^ for dropdown
+
+    <input id="inputText" />
+    <button id="submit" type="submit" onclick="getItemSelected();">Submit</button>
+    <input id="entry" type="radio" name="radioChoice"/>Choose ^ for input
+
+    <br />
+    <table>
+      <tr>
+        <th>Chapter Arabic</th>
+        <th>Chapter English</th>
+        <th>Chapter Translation</th>
+        <th>Chapter Number</th>
+        <th>Number of Verses</th>
+      </tr>
+      <tr id="table">
+        <td id="surah"></td>
+        <td id="surahEnglish"></td>
+        <td id="surahTrans"></td>
+        <td id="chapter"></td>
+        <td id="ayas"></td>
+      </tr>
+    </table>
+
+    <button onclick="clearScreen();">Clear</button>
+    <footer>
+      <br />
+      <br />
+      <i>Assignment completed by Yousef Ismail</i>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

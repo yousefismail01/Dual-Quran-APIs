@@ -1,0 +1,49 @@
+h2 {
+  color: hsl(180, 21%, 32%);
+}
+
+table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+ th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+  
+  body {
+    background-image: linear-gradient(140deg, #d5e9e2, #aad9d1);
+    display: grid;
+    place-items: center;
+    font-family: "Lato", Arial, sans-serif;
+    height: 70vh;
+  }
+
+  .dropDown {
+    all: unset;
+    
+    margin-left: 2px;
+    float: left;
+    padding-top: 4px;
+    display: flex;
+  }
+  
+  .dropDown {
+    margin-top: 5px;
+  display: flex;
+  }
+  
+  
+  
